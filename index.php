@@ -63,9 +63,8 @@ function controlloMaiuscola($password) {
 
 // Inizio funziona che controlla se contiene almeno un carattere speciale
 
-const SPECIALCHARS = array(
-    '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~'
-);
+const SPECIALCHARS = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~'
+];
 
 function controlloCaratteriSpeciali($password) {
     
